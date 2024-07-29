@@ -11,7 +11,7 @@ y0 = [0; 0; pi; .5];
 [t,y] = ode45(@(t,y)cartpend(y,m,M,L,g,d,0),tspan,y0);
 
 for k=1:length(t)
-    drawcartpend_bw(y(k,:),m,M,L);
+    drawcartpend(y(k,:),m,M,L);
 end
 
 % function dy = pendcart(y,m,M,L,g,d,u)

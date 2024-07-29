@@ -43,7 +43,7 @@ else
 end
 
 for k=1:100:length(t)
-    drawcartpend_bw(y(k,:),m,M,L);
+    drawcartpend(y(k,:),m,M,L);
 end
 
 % function dy = pendcart(y,m,M,L,g,d,u)
